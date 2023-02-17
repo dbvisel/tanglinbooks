@@ -1,0 +1,53 @@
+:root {
+  --background: #ccc;
+  --white: white;
+  --outsidePadding: 20px;
+  --insidePadding: 10px;
+  --accent: #ccc;
+  --text: #333;
+  --highlight: rgb(17, 21, 87, 0.75);
+	--highlightText: white;
+  --baseFont: "Rouna";
+	--sidebarWidth: 320px;
+	--outline: #ccc;
+}
+
+@font-face {
+  font-family: "Rouna";
+  font-weight: normal;
+  font-style: normal;
+  src: url("./../fonts/rouna-regular-webfont.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Rouna";
+  font-weight: normal;
+  font-style: italic;
+  src: url("./../fonts/rouna-regularitalic-webfont.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Rouna";
+  font-weight: bold;
+  font-style: normal;
+  src: url("./../fonts/rouna-bold-webfont.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Rouna";
+  font-weight: bold;
+  font-style: italic;
+  src: url("./../fonts/rouna-bolditalic-webfont.woff2") format("woff2");
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--baseFont), sans-serif;
+  background-color: #ccc;
+}
+
+p {
+	line-height: 1.5;
+}
