@@ -1,16 +1,16 @@
 {
   "name": "tanglinbooks",
-	"author": "Dan Visel <dbvisel@gmail.com>",
+  "author": "Dan Visel <dbvisel@gmail.com>",
   "version": "0.1.0",
   "private": false,
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/dbvisel/tanglinbooks"
-	},
-	"bugs": {
-		"url": "https://github.com/dbvisel/tanglinbooks/issues"
-	},
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dbvisel/tanglinbooks"
+  },
+  "bugs": {
+    "url": "https://github.com/dbvisel/tanglinbooks/issues"
+  },
   "scripts": {
     "prebuild": "node scripts/prebuild.js",
     "dev": "next dev",
@@ -21,7 +21,7 @@
   "dependencies": {
     "@netlify/plugin-nextjs": "^4.30.4",
     "@plaiceholder/next": "^2.5.0",
-    "airtable": "^0.11.5",
+    "airtable": "^0.11.6",
     "dotenv": "^16.0.3",
     "next": "12.3.1",
     "node-fetch": "^2.6.9",
@@ -36,7 +36,7 @@
     "babel-plugin-styled-components": "^2.0.7",
     "eslint": "8.24.0",
     "eslint-config-next": "12.3.1",
-    "eslint-config-prettier": "^8.5.0",
-    "prettier": "^2.7.1"
+    "eslint-config-prettier": "^8.6.0",
+    "prettier": "^2.8.4"
   }
 }
